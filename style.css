@@ -25,7 +25,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
@@ -153,6 +153,10 @@ footer a {
 
   main {
     max-width: 300px;
+  }
+
+  main > p {
+    padding: 0 2em 1em;
   }
 }
 
