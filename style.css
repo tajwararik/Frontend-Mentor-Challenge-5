@@ -146,7 +146,7 @@ footer a {
   font-weight: var(--fw-bold);
 }
 
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
   }
