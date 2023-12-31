@@ -31,6 +31,10 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: var(--fw-regular);
   background-color: var(--pale-blue);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  user-select: none;
 }
 
 main {
@@ -42,6 +46,7 @@ main {
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
+  z-index: 0;
 }
 
 h1 {
@@ -138,5 +143,11 @@ footer {
 footer a {
   color: var(--dark-blue);
   font-weight: var(--fw-bold);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
 }
 

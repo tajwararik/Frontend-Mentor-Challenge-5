@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Preview
 
-![](./design/desktop-preview.jpg)
+![](./images/desktop-preview.jpg)
 
 ### Links
 
