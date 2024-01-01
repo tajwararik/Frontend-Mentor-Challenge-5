@@ -92,6 +92,7 @@ article section:last-of-type {
   color: var(--bright-blue);
   position: absolute;
   right: 1.25em;
+  padding-left: 1em;
 }
 
 article section:last-of-type a:hover {
