@@ -34,7 +34,6 @@ body {
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  padding-top: 3.5em;
   user-select: none;
 }
 
