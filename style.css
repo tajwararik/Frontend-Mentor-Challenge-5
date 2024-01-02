@@ -59,6 +59,7 @@ h1 {
 
 main > p {
   font-size: 0.9em;
+  line-height: 1.75em;
   color: var(--desaturated-blue);
   padding: 0 3em 1em;
 }
@@ -92,7 +93,6 @@ article section:last-of-type {
   color: var(--bright-blue);
   position: absolute;
   right: 1.25em;
-  padding-left: 1em;
 }
 
 article section:last-of-type a:hover {
@@ -157,7 +157,20 @@ footer a {
   }
 
   main > p {
-    padding: 0 2em 1em;
+    padding: 0 1.75em 1em;
+  }
+
+  article {
+    width: 85%;
+    padding: 1em .75em;
+  }
+
+  article section:last-of-type {
+    right: 0.75em;
+  }
+
+  main > section {
+    width: 85%;
   }
 }
 
